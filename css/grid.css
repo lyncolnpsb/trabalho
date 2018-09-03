@@ -99,10 +99,10 @@ body{
 }
 
 .column{
-    background-color:rgb(50, 43, 90);
+    background-color:rgb(66, 17, 17);
     border: 1px solid #ccc;
     border-radius: 4px;
-    color: #c3f804;
+    color: #777;
     padding: 5px;
     min-height: 30px;
     text-align: center; 
@@ -134,7 +134,7 @@ p{
 }
 
  .menu .brand a{
-    color: #c3f804;
+    color: #057738fd;
     padding-left: 10px;
     padding-top: 5px;
     list-style: none;
@@ -158,9 +158,9 @@ p{
     border-bottom: 3px solid #0d5e0a;
 }
 .menu ul li a:hover{
-    color: #ccf73d;
+    color: #196623;
     border-bottom: 3px solid #0d5e0a;
-    background-color: #2e80cc;
+    background-color: #488596;
 }
 
 #vrain{
@@ -202,6 +202,5 @@ p{
  }
  footer{
      color: #000;
-     background: #ccf73d;
+     background: #86c732;
  }
-.raphael{}
