@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/*
+*CRIADO EM 27/07/2018, 09:12 am.
+*autor Lyncoln Pinheiro;
+*/
+
+body{
+    width: auto;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* tamanho automatico */
+
+/*************************************
+**  GRID SYSTEM
+**************************************/
+.row, body
+.column{
+    box-sizing: border-box;
+}
+.row::before, .row::after{
+
+    content: " ";
+    display: table;
+}
+
+.row::after{
+    clear:both;
+}
+
+.column{
+    position: relative;
+    float: left;
+    display: block;
+}
+.column + .column{
+    margin-left: 1.6%;
+}
+
+.column-12{
+    width: 100%;
+    margin-left: 0;
+}
+
+.column-11{
+    width: 91.53333333333%;
+}
+
+.column-10{
+    width: 83.06666666667%;
+}
+
+.column-9{
+    width: 75.6%;
+}
+
+.column-8{
+    width: 66.13333333333%;
+}
+
+.column-7{
+    width: 57.66666666667%
+}
+
+.column-6{
+    width: 49.2%
+}
+
+.column-5{
+    width: 40.73333333333%
+}
+
+.column-4{
+    width: 32.26666666667%
+}
+
+.column-3{
+    width: 23.8%
+}
+
+.column-2{
+    width: 15.33333333333%
+}
+
+.column-1{
+    width: 6.86666666667%;
+}
+
+/******************
+**    Styling
+*******************/
+body{
+    padding: 20px;
+    
+}
+
+.row{
+    margin-bottom: 10px
+}
+
+.column{
+    background-color:rgb(50, 43, 90);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #777;
+    padding: 5px;
+    min-height: 30px;
+    text-align: center; 
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.column .column{
+    background-color: #4e6307;
+    border-color: #ffffff;
+    color: #96f2ed;
+}
+/**************************
+*  elementos visuais
+***************************/
+.brand{
+    text-align: left;
+    text-decoration: none;
+
+}
+.menu ul li{
+    display: inline;
+
+}
+
+ .menu .brand a{
+    color: #c3f804;
+    padding-left: 10px;
+    padding-top: 5px;
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    border-bottom: 3px solid #e8e9e8;
+    
+ }
+
+ .menu ul{
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    list-style:none;
+
+}
+.menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid #0d5e0a;
+}
+.menu ul li a:hover{
+    color: #ccf73d;
+    border-bottom: 3px solid #0d5e0a;
+    background-color: #2e80cc;
+}
+
+#vrain{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.cover{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#bntvideo{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#bntvideo:hover{
+    background: darkturquoise;
+    color: black;
+}
+ h1{
+     font-size: 250%;
+     text-align: center;
+     text-shadow: 4px 4px 8px #ccf73d;
+ }
+ footer{
+     color: #000;
+     background: #ccf73d;
+ }
