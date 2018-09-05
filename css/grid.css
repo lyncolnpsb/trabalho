@@ -99,7 +99,7 @@ body{
 }
 
 .column{
-    background-color:rgb(66, 17, 17);
+    background-color:blue;
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #777;
