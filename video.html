@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
+    
+</head>
+<body>
+    <video  autoplay muted loop id="vrain" >
+        <source src="./videoo/Steve Jobs - Official Trailer (HD).mp4" type="video/mp4">
+</video>
+<div class="cover">
+
+<h1>steve jobs</h1>
+<p>
+ utilize botão para pause e parar o video  <br>
+ 
+<button id="bntvideo" onclick="funcao()">pause</button>
+</div>
+<script>
+var video = document.getElementById("vrain");
+var btn = document.getElementById("bntvideo");
+function funcao(){
+    if(video.paused){
+        video.play();
+        btn.innerHTML="pause";
+    }else{
+        video.pause();
+        btn.innerHTML="play";
+    }
+}
+</script>
+</body>
+</html>
